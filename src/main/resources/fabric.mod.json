@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "springmod",
+	"version": "${version}",
+	"name": "SpringMod",
+	"description": "This is a mod that Spring try to learn how to make a MC mod",
+	"authors": [
+		"Spring"
+	],
+	"contact": {
+		"homepage": "https://springmc.xyz/",
+		"sources": "https://github.com/MrSpring521/SpringMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/springmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.spring.SpringMod"
+		],
+		"fabric-datagen": [
+			"xyz.spring.SpringModDataGenerator"
+		],
+        "client": [
+            "xyz.spring.SpringModClient"
+        ]
+	},
+	"mixins": [
+		"springmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
