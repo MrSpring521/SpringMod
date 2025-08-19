@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "springmod:block/spring_icon_block"
+    }
+  }
+}
