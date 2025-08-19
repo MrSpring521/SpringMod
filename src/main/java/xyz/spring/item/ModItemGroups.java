@@ -1,18 +1,13 @@
 package xyz.spring.item;
 
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import org.lwjgl.util.freetype.FT_Module_ConstructorI;
 import xyz.spring.SpringMod;
-
-import javax.swing.*;
+import xyz.spring.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -41,6 +36,9 @@ public class ModItemGroups {
                 .icon(() -> new ItemStack(ModItems.SPRING_ICON))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.SPRING_ICON);
+                    entries.add(ModBlocks.SPRING_ICON_BLOCK);
+                    entries.add(ModBlocks.SPRING_ICON_ORE);
+                    entries.add(ModBlocks.RAW_SPRING_ICON_BLOCK);
                 })
                 .build());
     public static void registerModItemGroups(){

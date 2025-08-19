@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import xyz.spring.block.ModBlocks;
 import xyz.spring.item.ModItemGroups;
 import xyz.spring.item.ModItems;
 
@@ -22,6 +23,7 @@ public class SpringMod implements ModInitializer {
 		// Proceed with mild caution.
         ModItems.registerModItems();
         ModItemGroups.registerModItemGroups();
+        ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
