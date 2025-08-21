@@ -13,6 +13,7 @@ import xyz.spring.SpringMod;
 public class ModItems {
 
     public static final Item SPRING_ICON = registerItems("spring_icon", new Item(new Item.Settings()));
+    public static final Item RAW_SPRING_ICON = registerItems("raw_spring_icon", new Item(new Item.Settings()));
     private static Item registerItems(String id, Item item)
     {
         //return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(SpringMod.MOD_ID,id)), item);

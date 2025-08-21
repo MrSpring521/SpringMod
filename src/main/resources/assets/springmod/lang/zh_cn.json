@@ -3,5 +3,6 @@
   "itemGroup.spring_group": "泉水模组",
   "block.springmod.spring_icon_block": "泉水头像方块",
   "block.springmod.spring_icon_ore": "泉水头像矿",
-  "block.springmod.raw_spring_icon_block": "生泉水头像矿方块"
+  "block.springmod.raw_spring_icon_block": "生泉水头像矿方块",
+  "item.springmod.raw_spring_icon": "生泉水头像"
 }

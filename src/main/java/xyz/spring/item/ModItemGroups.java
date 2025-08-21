@@ -36,6 +36,7 @@ public class ModItemGroups {
                 .icon(() -> new ItemStack(ModItems.SPRING_ICON))
                 .entries((displayContext, entries) -> {
                     entries.add(ModItems.SPRING_ICON);
+                    entries.add(ModItems.RAW_SPRING_ICON);
                     entries.add(ModBlocks.SPRING_ICON_BLOCK);
                     entries.add(ModBlocks.SPRING_ICON_ORE);
                     entries.add(ModBlocks.RAW_SPRING_ICON_BLOCK);

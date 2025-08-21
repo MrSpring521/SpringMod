@@ -3,5 +3,6 @@
   "itemGroup.spring_group": "Spring Group",
   "block.springmod.spring_icon_block": "Spring Icon Block",
   "block.springmod.spring_icon_ore": "Spring Icon Ore",
-  "block.springmod.raw_spring_icon_block": "Raw Spring Icon Block"
+  "block.springmod.raw_spring_icon_block": "Raw Spring Icon Block",
+  "item.springmod.raw_spring_icon": "Raw Spring Icon"
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "springmod:spring_icon_block",
+    "springmod:spring_icon_ore",
+    "springmod:raw_spring_icon_block"
+  ]
+}

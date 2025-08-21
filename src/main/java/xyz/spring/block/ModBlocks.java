@@ -14,16 +14,19 @@ public class ModBlocks {
     public static final Block SPRING_ICON_BLOCK = register("spring_icon_block",
             new Block(AbstractBlock
                     .Settings.create()
+                    .requiresTool()
                     .strength(3.0F,3.0F)));
 
     public static final Block SPRING_ICON_ORE = register("spring_icon_ore",
             new Block(AbstractBlock
                     .Settings.create()
+                    .requiresTool()
                     .strength(4.5F,6.0F)));
 
     public static final Block RAW_SPRING_ICON_BLOCK = register("raw_spring_icon_block",
             new Block(AbstractBlock
                     .Settings.create()
+                    .requiresTool()
                     .strength(3.0F,3.0F)));
 
     public static void registerBlockItems(String id, Block block){

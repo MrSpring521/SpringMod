@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "springmod:raw_spring_icon_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "springmod:blocks/raw_spring_icon_block"
+}
